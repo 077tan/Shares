@@ -1,0 +1,27 @@
+A-share Reports 实战版 Skill
+
+文件说明：
+1. SKILL.md
+   - 实战版核心规则文件
+2. references/portable-setup.md
+   - 路径、接收人、焦点标的、cron 替换说明
+3. a-share-reports-portable.skill
+   - 可直接发给其他 OpenClaw 导入的打包文件
+
+迁移前主要替换：
+- {{WORKSPACE_ROOT}}
+- {{WATCHLIST_XLSX}}
+- {{ZSXQ_STATE_JSON}}
+- {{FEISHU_USER_ID}}
+- {{FOCUS_CODE}}
+
+当前这版已包含：
+- 盘前 09:15
+- 盘中一页纸每10分钟
+- 14:35 盘中校准
+- 16:10 盘后复盘
+- 18:05 WSD close 截图
+- 知识星球 + 雪球双源联动
+- 量化+交易化字段
+- 公众号新增四项约束
+- Wind / 交易日 / 截图截全 / 无数据不编 等硬约束
